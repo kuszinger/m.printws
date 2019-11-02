@@ -982,7 +982,7 @@ def main():
 
         # ------------------- OUTSIDE MAP texts, etc -------------------
         if pageoption =='Flexi':
-            grass.verbose(_('m.printws: WARNING! Felxi mode, will not create titles, etc...'))
+            grass.verbose(_('m.printws: WARNING! Flexi mode, will not create titles, etc...'))
         else:
             os.environ['GRASS_RENDER_FRAME'] = maxframe
 
